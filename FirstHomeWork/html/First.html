@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .font_size{
+            font-size: 14px;
+        }
+        .table_border{
+            border: #999999;
+        }
+        .button_style{
+            background: url("../images/register_submit.gif");
+            font-size: 14px;
+            font-weight: bold;
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+            background:url('../images/register_submit.gif') no-repeat;
+            width:130px;
+            height: 35px
+        }
+        li{
+            float:left;
+            list-style: none;
+        }
+        .notice_style{
+            background-color: aqua;
+            text-align: right;
+            padding-left: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width:20%;
+        }
+        a:hover{
+            color: #FF0000;
+        }
+        .my_input{
+            width: 20%;
+            margin-left: 40px;
+            margin-top: 20px;
+            text-align:center
+        }
+        .img_style{
+            /*background-size: contain;*/
+            /*width: 100%;height:auto*/
+        }
+    </style>
+
+</head>
+<body class="font_size">
+<div id="web_head">
+    <img src="../images/head.jpg" class="img_style">
+</div>
+<div id="web_form">
+    <form id="register">
+        <table>
+            <tr>
+                <td><p style="color: red;font-size: 20px">以下均为必填项</p></td>
+            </tr>
+            <tr>
+                <td class="notice_style">请填写您的Email地址</td>
+                <td class="my_input"><input type="email" style="color: #000000;"></td>
+                <td style="margin-left: 40px;margin-top:20px;color:red">此项为必填项，请输入您的Email地址</td>
+            </tr>
+            <tr>
+                <td class="notice_style">设置您在当当网的昵称</td>
+                <td class="my_input"><input type="email" style="color: #000000;"></td>
+                <td style="margin-left: 40px;margin-top:20px;color:red">此项为必填项，请输入您的Email地址</td>
+            </tr>
+            <tr>
+                <td class="notice_style">设置密码</td>
+                <td class="my_input"><input type="email" style="color: #000000;"></td>
+                <td style="margin-left: 40px;margin-top:20px;color:red">此项为必填项，请输入您的Email地址</td>
+            </tr>
+            <tr>
+                <td class="notice_style">再次输入您设置的密码</td>
+                <td class="my_input"><input type="email" style="color: #000000;"></td>
+                <td style="margin-left: 40px;margin-top:20px;color:red">此项为必填项，请输入您的Email地址</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2" style="margin-left: 30px"><input type="radio">
+                我已阅读并同意《<a href="" style="text-decoration: none;">当当网交易条款</a>》和《<a href="" style="text-decoration: none">当当网用户使用条款</a>》
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" class="button_style" value="重置" onclick=""></td>
+                <td><input type="button" class="button_style" value="注册" onclick=""></td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+<br/>
+<div id="web_end">
+    <hr>
+    <br/>
+    <img src="../images/foot.jpg" class="img_style">
+</div>
+</body>
+</html>
